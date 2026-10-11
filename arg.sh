@@ -15,3 +15,6 @@ done
 
 echo "Hello"
 echo "Exit code: $?"
+
+ls nonexistent_folder
+echo "Exit code: $?"
