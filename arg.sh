@@ -12,3 +12,6 @@ fi
 for arg in "$@"; do
     echo "Argument: $arg"
 done
+
+echo "Hello"
+echo "Exit code: $?"
