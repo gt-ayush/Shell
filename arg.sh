@@ -18,3 +18,9 @@ echo "Exit code: $?"
 
 ls nonexistent_folder
 echo "Exit code: $?"
+
+if mkdir test_folder; then
+    echo "Folder created successfully"
+else
+    echo "Folder creation failed"
+fi
