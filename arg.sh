@@ -25,4 +25,4 @@ else
     echo "Folder creation failed"
 fi
 
-echo "My PID is $$"
+echo "My PID is $BASHPID"
