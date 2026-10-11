@@ -8,3 +8,7 @@ if [ $# -lt 2 ]; then
 else
     echo "You provided $# arguments."
 fi
+
+for arg in "$@"; do
+    echo "Argument: $arg"
+done
