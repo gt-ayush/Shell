@@ -24,3 +24,5 @@ if mkdir test_folder; then
 else
     echo "Folder creation failed"
 fi
+
+echo "My PID is $$"
